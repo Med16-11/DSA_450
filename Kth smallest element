@@ -1,0 +1,8 @@
+int kthSmallest(int arr[], int l, int r, int k) 
+    {     
+        #valid for c++ , you can sort array using different methods if tou are not using c++
+        sort(arr, arr + r+1);
+        
+      // Return k'th element in the sorted array
+        return arr[k - 1];
+    }
